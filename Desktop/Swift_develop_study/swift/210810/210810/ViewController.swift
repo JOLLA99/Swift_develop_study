@@ -10,8 +10,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func trashItem(_ sender: Any) {
+        print("trash")
     }
     @IBAction func airpodItem(_ sender: Any) {
+        print("airpods")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
